@@ -1,0 +1,5 @@
+discord.py==1.7.3
+pymongo==4.0.1
+asyncio==3.4.3
+pyqt5==5.15.4
+dnspython==2.1.0
