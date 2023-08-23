@@ -49,6 +49,13 @@ Provide a list of available commands and a brief description of each:
 - `?av [user]`: Show the avatar of a user.
 - `?server_info`: Show server information.
 - `?ping`: Get the bot's latency.
+-  `?unlock <#channel>`: unlock a channel.
+-  `?lock <#channel>` : lock a channel.
+-  `?giveaway <duration in seconds <prize>` : giveaway command.
+-  `?mute <@user>` : mutes user.
+-  `?unmute <@user>` : unmute user.
+-  `?server_info` : shows server info.
+-  `?delete <amount>` : Delete messages (requires manage messages permission)
 <!-- Add more commands as needed -->
 
 ## License
