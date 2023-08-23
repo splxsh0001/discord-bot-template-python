@@ -1,42 +1,62 @@
-# Discord Bot Template - Python
+# splxsh bot
 
-![Discord Bot Template Logo](https://github.com/splxsh0001/discord-bot-template-python/raw/main/bot_logo.png)
+![Your Bot Logo](https://www.pngmart.com/files/21/AI-PNG-Picture.png) <!-- Replace with an image URL if you have a logo -->
+
+
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Commands](#commands)
+- [License](#license)
 
 ## About
-This is a template for creating a Discord bot using Python and the [discord.py](https://discordpy.readthedocs.io/en/stable/) library. The template includes various features such as reaction roles, giveaways, moderation commands, and more. You can use this template as a starting point to build your own bot.
 
-## Getting Started
-1. Clone this repository:
-git clone https://github.com/splxsh0001/discord-bot-template-python.git
-
-2. Install the required dependencies using the `requirements.txt` file:
-
-3. Create a `.env` file in the project directory and add your bot token:
-BOT_TOKEN=your_bot_token_here
-
-
+Provide a brief introduction to your bot. What is its purpose? What sets it apart from other bots?
 
 ## Features
-- Command Prefix: `?`
-- Moderation commands for managing the server.
-- Reaction roles for easy role assignment.
-- Giveaway commands for organizing giveaways.
-- Customizable welcome messages for new members.
-- Poll commands for creating polls.
+
+List the key features of your bot. For example:
+
+- Reaction role management
+- Giveaway hosting
+- Poll creation
+- Custom commands
+
+## Installation
+
+Include step-by-step instructions on how to set up your bot:
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Create a bot on the [Discord Developer Portal](https://discord.com/developers/applications).
+4. Copy your bot token and paste it in the appropriate field in `main.py`.
+5. Customize the bot's behavior, commands, and features in `main.py`.
 
 ## Usage
-- Use the `?help` command to get a list of available commands.
-- Customize the bot's behavior and settings in the source code.
-- Start the bot using `python bot.py`.
 
-## Contributing
-Contributions are welcome! If you find a bug or want to add a new feature, feel free to create an issue or a pull request.
+Explain how to invite your bot to a Discord server and how to use its various features.
 
-## Support
-For questions or assistance, join our [Discord Server](https://discord.gg/BvpAvf7Wju).
+## Commands
+
+Provide a list of available commands and a brief description of each:
+
+- `?hello`: Greet the bot.
+- `?kick <@user> [reason]`: Kick a user (owner only).
+- `?av [user]`: Show the avatar of a user.
+- `?server_info`: Show server information.
+- `?ping`: Get the bot's latency.
+<!-- Add more commands as needed -->
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-Created by [splxsh](https://github.com/splxsh0001)
+
+For support or inquiries, join our [Discord Server](https://discord.gg/BvpAvf7Wju) or [open an issue](https://github.com/splxsh0001/discord-bot-template-python/issues).
+
+[![Support Server](https://discordapp.com/api/guilds/1126276485209129050/widget.png)](https://discord.gg/BvpAvf7Wju) 
