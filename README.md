@@ -30,30 +30,28 @@ Provide a brief introduction to your bot. What is its purpose? What sets it apar
 Installation
 To set up and run your Discord bot using this template, follow these steps:
 
-Step 1: Clone the Repository
+## Step 1: Clone the Repository
 Start by cloning this repository to your local machine using Git. Open your terminal and run the following command:
 
-sh
-Copy code
 git clone https://github.com/splxsh0001/discord-bot-template-python.git
-Step 2: Create a Bot on Discord Developer Portal
+## Step 2: Create a Bot on Discord Developer Portal
 Go to the Discord Developer Portal and log in.
 Click on "New Application" to create a new bot application.
 Navigate to the "Bot" tab on the left sidebar and click "Add Bot."
 Under the "TOKEN" section, click "Copy" to copy your bot token.
-Step 3: Configure Bot Token
+## Step 3: Configure Bot Token
 Open the main.py file in your cloned repository using a text editor.
 Replace YOUR_BOT_TOKEN in the line bot.run YOUR_BOT_TOKEN =  with the copied bot token from the Discord Developer Portal.
 Save the changes to the file.
-Step 4: Install Dependencies
+## Step 4: Install Dependencies
 Open your terminal and navigate to the cloned repository's directory.
 Run the following command to install the required dependencies:
 pip install -r requirements.txt
-Step 5: Customize and Run the Bot
+## Step 5: Customize and Run the Bot
 Customize the bot's features, commands, and settings in the main.py file.
 You can modify the reaction_roles dictionary for reaction role management and add more custom commands.
 Save your changes.
-Step 6: Run the Bot
+## Step 6: Run the Bot
 In your terminal, navigate to the cloned repository's directory and run the bot using the following command:
 python main.py
 The bot will come online and be ready to use in your Discord server.
