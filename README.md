@@ -129,4 +129,5 @@ This project is licensed under the [MIT License](https://github.com/splxsh0001/d
 
 For support or inquiries, join our [Discord Server](https://discord.gg/BvpAvf7Wju) or [open an issue](https://github.com/splxsh0001/discord-bot-template-python/issues).
 
-[![Support Server](https://discordapp.com/api/guilds/1126276485209129050/widget.png)](https://discord.gg/BvpAvf7Wju) 
+[![Support Server](![pngwing com](https://github.com/splxsh0001/discord-bot-template-python/assets/142894029/aad27aea-041a-4912-94ff-165977fb92a2)
+)](https://discord.gg/BvpAvf7Wju) 
