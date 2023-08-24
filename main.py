@@ -13,8 +13,9 @@ intents.reactions = True
 
 bot = commands.Bot(command_prefix='?', intents=intents)
 
-YOUR_OWNER_ID =                      #ur user id
-YOUR_MESSAGE_ID =                     #for the !reaction roles command
+YOUR_OWNER_ID =                   #change this    
+#YOUR_MESSAGE_ID =
+YOUR_BOT_TOKEN =                  #and this   
 
 def is_owner():
     def predicate(ctx):
@@ -294,5 +295,5 @@ async def set_custom_presence():
     activity = discord.Activity(type=discord.ActivityType.watching, name=" over splxsh's server | dm for discord bot", url=image_url) # change to what ever u want after name=
     await bot.change_presence(activity=activity)
 
-bot.run('') #put in ur bot token
+bot.run(YOUR_BOT_TOKEN)
 
