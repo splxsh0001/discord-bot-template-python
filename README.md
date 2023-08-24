@@ -1,6 +1,6 @@
 # splxsh bot
 
-![Your Bot Logo]((https://www.pngwing.com/en/free-png-zqgct.png)) <!-- Replace with an image URL if you have a logo -->
+![Your Bot Logo](https://www.pngmart.com/files/7/Python-Transparent-Background.png) <!-- Replace with an image URL if you have a logo -->
 
 
 
