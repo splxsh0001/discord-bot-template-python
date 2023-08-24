@@ -123,7 +123,7 @@ Provide a list of available commands and a brief description of each:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/splxsh0001/discord-bot-template-python/blob/main/MIT%20License)).
 
 ---
 
