@@ -43,7 +43,7 @@ Under the "TOKEN" section, click "Copy" to copy your bot token.
 ### Step 3: 
 Configure Bot Token
 Open the main.py file in your cloned repository using a text editor.
-Replace YOUR_BOT_TOKEN in the line bot.run YOUR_BOT_TOKEN =  with the copied bot token from the Discord Developer Portal.
+Replace YOUR_BOT_TOKEN in the line bot.run YOUR_BOT_TOKEN =  and the YOUR_USER_ID = 
 Save the changes to the file.
 ### Step 4: 
 Install Dependencies
