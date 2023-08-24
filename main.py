@@ -14,7 +14,6 @@ intents.reactions = True
 bot = commands.Bot(command_prefix='?', intents=intents)
 
 YOUR_OWNER_ID =                   #change this    
-#YOUR_MESSAGE_ID =
 YOUR_BOT_TOKEN =                  #and this   
 
 def is_owner():
@@ -76,36 +75,6 @@ async def giveaway(ctx, duration: int, *, prize: str):
         await ctx.send("No one entered the giveaway. 😢")
 
     await message.delete()
-
-
-
-
-
-
-
-
-
-
-@bot.event
-async def on_raw_reaction_remove(payload):
-    guild = bot.get_guild(payload.guild_id)
-    member = guild.get_member(payload.user_id)
-    
-    if member.bot:
-        return
-    
-    message_id = payload.message_id
-    
-    if message_id == YOUR_MESSAGE_ID:  # Replace with the actual message ID
-        emoji = payload.emoji.name
-        if emoji in reaction_roles:
-            role_name = reaction_roles[emoji]
-            role = discord.utils.get(guild.roles, name=role_name)
-            if role:
-                await member.remove_roles(role)
-
-
-
 
 
 @bot.event
