@@ -1,4 +1,4 @@
-# splxsh bot
+# splxsh's  bot
 
 ![Your Bot Logo](https://www.pngmart.com/files/7/Python-Transparent-Background.png) <!-- Replace with an image URL if you have a logo -->
 
