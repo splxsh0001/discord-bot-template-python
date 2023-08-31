@@ -76,7 +76,7 @@ async def giveaway(ctx, duration: int, *, prize: str):
 
     await message.delete()
 
-
+# bruhhh
 @bot.event
 async def on_ready():
     print(f'Logged in as {bot.user.name} - {bot.user.id}')
@@ -261,7 +261,7 @@ async def on_ready():
 
 async def set_custom_presence():
     image_url = "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/10/24/d4/1024d47e-b3c6-577b-1e7e-b0094d62634a/195410459781.png/1200x630cw.png" #use any image link
-    activity = discord.Activity(type=discord.ActivityType.watching, name=" over splxsh's server | dm for discord bot", url=image_url) # change to what ever u want after name=
+    activity = discord.Activity(type=discord.ActivityType.watching, name=" over splxsh's server | made by splxsh", url=image_url) # change to what ever u want after name=
     await bot.change_presence(activity=activity)
 
 bot.run(YOUR_BOT_TOKEN)
